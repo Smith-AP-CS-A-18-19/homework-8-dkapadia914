@@ -41,6 +41,9 @@ public class Homework8 {
 		double currentValue;
 		int length = arr.length;
 		maxValue = arr[0];
+		/* This for loop doesn't check the last
+		 * value in the array...
+		 */
 		for (int i = 1; i < (length - 1); i++) {
 			currentValue = arr[i];
 			if (currentValue > maxValue) {
